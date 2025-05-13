@@ -42,8 +42,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-main text-white overflow-hidden">
-      {/* Header with Logo */}
-      <header className="container mx-auto px-4 py-5 flex items-center">
+      {/* Header with Logo and Button */}
+      <header className="container mx-auto px-4 py-5 flex items-center justify-between">
         <div className="flex items-center">
           <img 
             src="/lovable-uploads/45a36e14-4147-468a-96a4-d04d25def9e6.png" 
@@ -52,6 +52,15 @@ const Index = () => {
           />
           <span className="ml-3 text-xl font-bold">EazyBet</span>
         </div>
+        
+        <a 
+          href="https://www.eazybetcoinapp.com" 
+          className="glow-button flex items-center gap-2 px-6 py-2 rounded-full text-white font-bold"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Commencer <ArrowRight size={16} />
+        </a>
       </header>
 
       <div className="container mx-auto px-4 py-10">
