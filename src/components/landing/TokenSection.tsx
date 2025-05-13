@@ -1,6 +1,8 @@
 
 import React from "react";
 import { Coins, Zap, LeafyGreen } from "lucide-react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { Card, CardContent } from "@/components/ui/card";
 
 const TokenSection = () => {
   return (
@@ -25,15 +27,17 @@ const TokenSection = () => {
             <p className="text-gray-300 flex-grow">
               Utilisable pour acheter des NFTs de cartes représentant des équipes de foot qui donnent des avantages dans le jeu.
             </p>
-            <div className="w-full h-40 bg-gradient-card rounded-lg mt-4 relative overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center opacity-70">
-                <img 
-                  src="https://placehold.co/600x400?text=NFT+Card" 
-                  alt="NFT Card" 
-                  className="object-cover h-full w-full"
-                />
-              </div>
-            </div>
+            <Card className="w-full mt-4 bg-transparent border-0 overflow-hidden">
+              <CardContent className="p-0">
+                <AspectRatio ratio={3/4} className="bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/4e1fbee7-6392-42ad-9395-41b51f9a0dda.png"
+                    alt="Madrid NFT Card" 
+                    className="object-cover h-full w-full"
+                  />
+                </AspectRatio>
+              </CardContent>
+            </Card>
           </div>
           
           <div className="feature-card h-full flex flex-col">
