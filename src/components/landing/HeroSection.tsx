@@ -1,9 +1,21 @@
 
 import React from "react";
+import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
     <section className="py-16 md:py-24 flex flex-col items-center">
+      <div className="flex justify-center mb-8">
+        <a 
+          href="https://www.eazybetcoinapp.com" 
+          className="glow-button flex items-center gap-2 px-8 py-4 rounded-full text-white font-bold text-lg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Accéder à l'app <ArrowRight size={18} />
+        </a>
+      </div>
+      
       <div className="max-w-4xl mx-auto text-center">
         {/* Video container */}
         <div className="w-full rounded-2xl overflow-hidden mb-12 border border-eazybet-purple/30 shadow-xl animate-pulse-glow">
