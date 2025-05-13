@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Ban, Coins, HeartPulse, Trophy } from "lucide-react";
+import { Ban, Coins, Trophy } from "lucide-react";
 
 const ConceptSection = () => {
   return (
@@ -10,7 +10,7 @@ const ConceptSection = () => {
           <span className="gradient-text">EazyBet</span> est l'opposé radical des apps de paris sportifs classiques
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="feature-card">
             <div className="flex items-center mb-4">
               <div className="bg-eazybet-purple/20 p-3 rounded-lg mr-4">
@@ -32,18 +32,6 @@ const ConceptSection = () => {
             </div>
             <p className="text-gray-300">
               Plus de stress lié aux pertes d'argent. Concentre-toi sur la stratégie et le plaisir du jeu.
-            </p>
-          </div>
-          
-          <div className="feature-card">
-            <div className="flex items-center mb-4">
-              <div className="bg-eazybet-purple/20 p-3 rounded-lg mr-4">
-                <HeartPulse className="text-eazybet-purple h-7 w-7" />
-              </div>
-              <h3 className="text-xl font-bold">Zéro addiction</h3>
-            </div>
-            <p className="text-gray-300">
-              Une expérience saine et responsable. Fini les pièges psychologiques des paris traditionnels.
             </p>
           </div>
           
