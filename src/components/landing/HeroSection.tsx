@@ -28,8 +28,8 @@ const HeroSection = () => {
         </a>
       </div>
       
-      <div className="max-w-4xl mx-auto text-center">
-        {/* Video container */}
+      <div className="max-w-5xl w-full mx-auto text-center">
+        {/* Video container - increased from max-w-4xl to max-w-5xl and added w-full */}
         <div className="w-full rounded-2xl overflow-hidden mb-12 border border-eazybet-purple/30 shadow-xl animate-pulse-glow">
           <iframe
             className="w-full aspect-video"
