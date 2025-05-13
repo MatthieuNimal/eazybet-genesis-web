@@ -42,6 +42,18 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-main text-white overflow-hidden">
+      {/* Header with Logo */}
+      <header className="container mx-auto px-4 py-5 flex items-center">
+        <div className="flex items-center">
+          <img 
+            src="/lovable-uploads/45a36e14-4147-468a-96a4-d04d25def9e6.png" 
+            alt="EazyBet Logo" 
+            className="h-12 md:h-16" 
+          />
+          <span className="ml-3 text-xl font-bold">EazyBet</span>
+        </div>
+      </header>
+
       <div className="container mx-auto px-4 py-10">
         <div ref={addToRefs} className="reveal">
           <HeroSection />
