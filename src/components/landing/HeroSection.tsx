@@ -33,7 +33,7 @@ const HeroSection = () => {
         <div className="w-full rounded-2xl overflow-hidden mb-12 border border-eazybet-purple/30 shadow-xl animate-pulse-glow">
           <iframe
             className="w-full aspect-video"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"  // Placeholder - replace with actual video
+            src="https://www.youtube.com/embed/pSk730ronAM"
             title="EazyBet présentation"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
