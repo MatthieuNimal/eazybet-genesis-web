@@ -41,7 +41,7 @@ const BetaSection = () => {
             </div>
             <h3 className="text-2xl font-bold mb-4 gradient-text">Récompenses uniques</h3>
             <p className="text-gray-300">
-              Des NFTs exclusifs et des avantages spéciaux dans l'application
+              Accès à des communautés privées, et des avantages permanents dans l'écosystème EazyBet
             </p>
           </div>
         </div>
