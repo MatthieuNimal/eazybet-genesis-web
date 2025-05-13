@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section className="py-16 md:py-24 flex flex-col items-center">
       <div className="max-w-4xl mx-auto text-center mb-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-8 leading-tight">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-8 leading-tight animate-fade-in">
           Les paris sportifs. <span className="gradient-text">Réinventés.</span>
         </h1>
         
@@ -17,7 +17,7 @@ const HeroSection = () => {
         </p>
       </div>
 
-      <div className="flex justify-center mb-8">
+      <div className="flex justify-center space-x-4 mb-10 animate-fade-in">
         <a 
           href="https://www.eazybetcoinapp.com" 
           className="glow-button flex items-center gap-2 px-8 py-4 rounded-full text-white font-bold text-lg"

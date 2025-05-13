@@ -43,14 +43,14 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-main text-white overflow-hidden">
       {/* Header with Logo and Button */}
-      <header className="container mx-auto px-4 py-5 flex items-center justify-between">
+      <header className="container mx-auto px-4 py-5 flex items-center justify-between animate-fade-in">
         <div className="flex items-center">
           <img 
             src="/lovable-uploads/45a36e14-4147-468a-96a4-d04d25def9e6.png" 
             alt="EazyBet Logo" 
             className="h-12 md:h-16" 
           />
-          <span className="ml-3 text-xl font-bold">EazyBet</span>
+          <span className="ml-3 text-xl font-bold gradient-text">EazyBet</span>
         </div>
         
         <a 
