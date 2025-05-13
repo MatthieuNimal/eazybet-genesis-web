@@ -11,9 +11,7 @@ const TokenSection = () => {
         </h2>
         
         <p className="text-xl text-center text-gray-300 mb-16 max-w-3xl mx-auto">
-          EZBC n'est pas qu'un token.
-          C'est le symbole d'une vision : récompenser les joueurs sans jamais les mettre en danger.
-          Une vraie utilité, une vraie communauté, et zéro dépendance à l'argent réel.
+          EZBC n'est pas qu'un token. C'est le symbole d'une vision : récompenser les joueurs sans jamais les mettre en danger. Une vraie utilité et une vraie communauté.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
