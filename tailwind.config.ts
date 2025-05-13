@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				eazybet: {
+					purple: '#9b87f5',
+					pink: '#D946EF',
+					blue: '#33C3F0',
+					dark: '#1A1F2C',
 				}
+			},
+			backgroundImage: {
+				'gradient-main': 'linear-gradient(135deg, #000000 0%, #1A1F2C 35%, #6E59A5 70%, #D946EF 100%)',
+				'gradient-button': 'linear-gradient(90deg, #9b87f5 0%, #D946EF 100%)',
+				'gradient-card': 'linear-gradient(180deg, rgba(155, 135, 245, 0.1) 0%, rgba(217, 70, 239, 0.1) 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +96,34 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'pulse-glow': {
+					'0%, 100%': { 
+						boxShadow: '0 0 15px 0 rgba(155, 135, 245, 0.4)',
+					},
+					'50%': { 
+						boxShadow: '0 0 25px 0 rgba(217, 70, 239, 0.6)',
+					},
+				},
+				'gradient-shift': {
+					'0%': { backgroundPosition: '0% 50%' },
+					'50%': { backgroundPosition: '100% 50%' },
+					'100%': { backgroundPosition: '0% 50%' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
+				'gradient-shift': 'gradient-shift 5s ease infinite',
+			},
+			fontFamily: {
+				'sans': ['Inter', 'sans-serif'],
 			}
 		}
 	},

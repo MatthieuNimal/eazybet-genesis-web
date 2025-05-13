@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +99,60 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-eazybet-purple to-eazybet-pink;
+}
+
+.glow-button {
+  @apply transition-all duration-300 bg-gradient-button bg-size-200 bg-pos-0 hover:bg-pos-100 hover:shadow-lg;
+  box-shadow: 0 0 10px rgba(155, 135, 245, 0.3);
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 25px rgba(217, 70, 239, 0.5);
+}
+
+.feature-card {
+  @apply bg-gradient-card p-6 rounded-2xl border border-gray-800 hover:border-eazybet-purple/50 transition-all duration-300;
+  backdrop-filter: blur(10px);
+}
+
+.feature-card:hover {
+  box-shadow: 0 0 20px rgba(155, 135, 245, 0.2);
+}
+
+.bg-size-200 {
+  background-size: 200% 200%;
+}
+
+.bg-pos-0 {
+  background-position: 0% 0%;
+}
+
+.bg-pos-100 {
+  background-position: 100% 100%;
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }
