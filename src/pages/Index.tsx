@@ -104,8 +104,10 @@ const Index = () => {
             Rejoindre le Telegram <MessageSquare size={18} />
           </a>
           <a 
-            href="#" 
+            href="https://x.com/eazybetcoin?s=21" 
             className="glow-button flex items-center gap-2 px-8 py-4 rounded-full text-white font-bold text-lg"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Suivre sur X (Twitter) <Twitter size={18} />
           </a>
