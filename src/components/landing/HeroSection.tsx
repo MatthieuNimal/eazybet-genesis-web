@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="py-16 md:py-24 flex flex-col items-center">
       <div className="max-w-4xl mx-auto text-center mb-10">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-8 leading-tight animate-fade-in">
-          Les paris sportifs. <span className="gradient-text">Réinventés.</span>
+          <span className="gradient-text">EAZYBET</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto">
