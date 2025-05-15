@@ -11,7 +11,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto">
-          Et si tu pouvais gagner de la crypto $EZBC… sans jamais risquer ton argent ?
+          Et si tu pouvais gagner de la crypto <span className="gradient-text font-semibold">$EZBC</span>… sans jamais risquer ton argent ?
         </p>
       </div>
 
