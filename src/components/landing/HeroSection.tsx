@@ -6,8 +6,8 @@ const HeroSection = () => {
   return (
     <section className="py-16 md:py-24 flex flex-col items-center">
       <div className="max-w-4xl mx-auto text-center mb-10">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-10 leading-tight animate-fade-in">
-          <span className="gradient-text tracking-wide">EAZYBET</span>
+        <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-10 leading-tight animate-fade-in">
+          <span className="gradient-text tracking-wide font-poppins">EazyBet</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto">
@@ -29,7 +29,6 @@ const HeroSection = () => {
       </div>
       
       <div className="max-w-5xl w-full mx-auto text-center">
-        {/* Video container - increased from max-w-4xl to max-w-5xl and added w-full */}
         <div className="w-full rounded-2xl overflow-hidden mb-12 border border-eazybet-purple/30 shadow-xl animate-pulse-glow">
           <iframe
             className="w-full aspect-video"
