@@ -4,8 +4,11 @@ import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="py-16 md:py-24 flex flex-col items-center">
-      <div className="max-w-4xl mx-auto text-center mb-10">
+    <section className="hero-section py-16 md:py-24 flex flex-col items-center relative overflow-hidden">
+      <div className="animated-bg"></div>
+      <div className="animated-bg bg-layer-2"></div>
+      
+      <div className="max-w-4xl mx-auto text-center mb-10 relative z-10">
         <h1 className="text-7xl md:text-9xl lg:text-[10rem] font-bold mb-10 leading-tight animate-fade-in">
           <span className="gradient-text tracking-wide font-poppins">EazyBet</span>
         </h1>
@@ -17,7 +20,7 @@ const HeroSection = () => {
         </p>
       </div>
 
-      <div className="flex justify-center space-x-4 mb-10 animate-fade-in">
+      <div className="flex justify-center space-x-4 mb-10 animate-fade-in relative z-10">
         <a 
           href="https://www.eazybetcoinapp.com" 
           className="glow-button flex items-center gap-2 px-8 py-4 rounded-full text-white font-bold text-lg"
@@ -28,7 +31,7 @@ const HeroSection = () => {
         </a>
       </div>
       
-      <div className="max-w-5xl w-full mx-auto text-center">
+      <div className="max-w-5xl w-full mx-auto text-center relative z-10">
         <div className="w-full rounded-2xl overflow-hidden mb-12 border border-eazybet-purple/30 shadow-xl animate-pulse-glow">
           <iframe
             className="w-full aspect-video"
