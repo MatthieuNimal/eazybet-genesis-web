@@ -148,39 +148,6 @@ body {
   .feature-card:hover {
     box-shadow: 0 0 20px rgba(155, 135, 245, 0.2);
   }
-  
-  .hero-section {
-    position: relative;
-    isolation: isolate;
-  }
-  
-  .animated-bg {
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    background: linear-gradient(135deg, rgba(155, 135, 245, 0.2), rgba(217, 70, 239, 0.2), rgba(51, 195, 240, 0.2), rgba(155, 135, 245, 0.2));
-    background-size: 400% 400%;
-    animation: gradientFlow 15s ease infinite;
-    transform: rotate(10deg);
-    z-index: 0;
-    opacity: 0.6;
-    filter: blur(60px);
-  }
-  
-  .bg-layer-2 {
-    animation-duration: 25s;
-    animation-delay: -5s;
-    transform: rotate(-15deg);
-    opacity: 0.4;
-  }
-  
-  @keyframes gradientFlow {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
 }
 
 .reveal {
@@ -209,3 +176,4 @@ body {
 .animate-fade-in {
   animation: fade-in 0.8s ease-out forwards;
 }
+
