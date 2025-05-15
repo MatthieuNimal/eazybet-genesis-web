@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section className="py-16 md:py-24 flex flex-col items-center">
       <div className="max-w-4xl mx-auto text-center mb-10">
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-10 leading-tight animate-fade-in">
+        <h1 className="text-7xl md:text-9xl lg:text-[10rem] font-bold mb-10 leading-tight animate-fade-in">
           <span className="gradient-text tracking-wide font-poppins">EazyBet</span>
         </h1>
         
