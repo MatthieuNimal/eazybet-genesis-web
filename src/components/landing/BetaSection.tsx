@@ -44,7 +44,7 @@ const BetaSection = ({
               <Gift className="text-eazybet-purple h-10 w-10" />
             </div>
             <h3 className="text-2xl font-bold mb-4 gradient-text">{freeAirdrop}</h3>
-            <p className="text-white text-lg font-medium bg-black/70 px-5 py-4 rounded-xl backdrop-blur-sm border border-eazybet-purple/30 shadow-[0_5px_15px_rgba(0,0,0,0.2)]">
+            <p className="text-white text-lg font-medium px-5 py-4">
               {freeAirdropDesc}
             </p>
           </div>
@@ -54,7 +54,7 @@ const BetaSection = ({
               <Ticket className="text-eazybet-pink h-10 w-10" />
             </div>
             <h3 className="text-2xl font-bold mb-4 gradient-text">{priorityAccess}</h3>
-            <p className="text-white text-lg font-medium bg-black/70 px-5 py-4 rounded-xl backdrop-blur-sm border border-eazybet-pink/30 shadow-[0_5px_15px_rgba(0,0,0,0.2)]">
+            <p className="text-white text-lg font-medium px-5 py-4">
               {priorityAccessDesc}
             </p>
           </div>
@@ -64,13 +64,13 @@ const BetaSection = ({
               <Medal className="text-eazybet-purple h-10 w-10" />
             </div>
             <h3 className="text-2xl font-bold mb-4 gradient-text">{uniqueRewards}</h3>
-            <p className="text-white text-lg font-medium bg-black/70 px-5 py-4 rounded-xl backdrop-blur-sm border border-eazybet-purple/30 shadow-[0_5px_15px_rgba(0,0,0,0.2)]">
+            <p className="text-white text-lg font-medium px-5 py-4">
               {uniqueRewardsDesc}
             </p>
           </div>
         </div>
         
-        <div className="mt-16 text-center p-8 bg-gradient-to-br from-black/80 to-black/60 backdrop-blur-md rounded-2xl border border-white/10 shadow-[0_10px_30px_rgba(155,135,245,0.3)]">
+        <div className="mt-16 text-center p-8">
           <p className="text-2xl md:text-3xl font-bold gradient-text mb-4">
             {hugeOpportunity}
           </p>

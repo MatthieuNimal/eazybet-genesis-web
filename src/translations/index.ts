@@ -62,6 +62,8 @@ export const translations = {
     
     // Call to action buttons
     getStarted: "Get Started",
+    joinTelegram: "Join Telegram",
+    followTwitter: "Follow on X (Twitter)",
     copyright: "© 2025 EazyBet. All rights reserved.",
   },
   fr: {
@@ -126,6 +128,8 @@ export const translations = {
     
     // Call to action buttons
     getStarted: "Commencer",
+    joinTelegram: "Rejoindre Telegram",
+    followTwitter: "Suivre sur X (Twitter)",
     copyright: "© 2025 EazyBet. Tous droits réservés.",
   }
 };
