@@ -56,24 +56,26 @@ const Index = () => {
           <img 
             src="/lovable-uploads/45a36e14-4147-468a-96a4-d04d25def9e6.png" 
             alt="EazyBet Logo" 
-            className="h-12 md:h-16" 
+            className="h-10 md:h-12" 
           />
-          <span className="ml-3 text-xl font-bold gradient-text">EazyBet</span>
+          <span className="ml-3 text-lg md:text-xl font-bold gradient-text">EazyBet</span>
         </div>
         
-        <div className="flex flex-col items-end gap-2">
+        <div className="flex flex-col items-end">
           <a 
             href="https://www.eazybetcoinapp.com" 
-            className="glow-button flex items-center gap-2 px-6 py-2 rounded-full text-white font-bold"
+            className="glow-button flex items-center gap-2 px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-white text-sm md:text-base font-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {t.getStarted} <ArrowRight size={16} />
+            {t.getStarted} <ArrowRight size={14} />
           </a>
-          <LanguageSwitcher 
-            onChangeLanguage={handleChangeLanguage} 
-            currentLanguage={language} 
-          />
+          <div className="mt-2">
+            <LanguageSwitcher 
+              onChangeLanguage={handleChangeLanguage} 
+              currentLanguage={language} 
+            />
+          </div>
         </div>
       </header>
 
