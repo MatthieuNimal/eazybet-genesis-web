@@ -14,12 +14,12 @@ const VisionSection = () => {
           Our <span className="gradient-text">Vision</span>
         </h2>
         
-        <div className="bg-black/30 backdrop-blur-sm p-8 md:p-12 rounded-3xl border border-gray-800">
-          <p className="text-xl md:text-2xl leading-relaxed mb-8">
+        <div className="bg-black/50 backdrop-blur-sm p-8 md:p-12 rounded-3xl border border-gray-800 shadow-lg">
+          <p className="text-xl md:text-2xl leading-relaxed mb-8 text-white">
             Our goal is clear: to challenge the sports betting industry, a system built on players' financial losses.
           </p>
           
-          <p className="text-xl md:text-2xl leading-relaxed mb-8">
+          <p className="text-xl md:text-2xl leading-relaxed mb-8 text-white">
             EazyBet proves that we can keep the fun and competition without ruining anyone.
           </p>
           
