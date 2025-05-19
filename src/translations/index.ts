@@ -134,7 +134,6 @@ export const translations = {
     opportunityDesc: "Un token lié à une utilisation réelle, dans un secteur grand public, avec une communauté engagée",
     
     // Final CTA
-    accessApp: "Accéder à l'App",
     joinTelegram: "Rejoindre Telegram",
     followTwitter: "Suivre sur X (Twitter)",
     
