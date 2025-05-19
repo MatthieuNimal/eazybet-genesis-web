@@ -137,9 +137,9 @@ const Index = () => {
         
         {/* CTA after Vision Section */}
         <div className="relative my-16 py-10">
-          <div className="absolute inset-0 bg-gradient-to-r from-eazybet-purple/20 to-eazybet-pink/20 rounded-3xl blur-xl"></div>
-          <div className="relative text-center max-w-3xl mx-auto p-8 rounded-3xl border border-white/20 bg-black/50 shadow-lg">
-            <p className="text-2xl font-bold mb-6 text-white">Redefine your approach to sports betting</p>
+          <div className="absolute inset-0 bg-gradient-to-r from-eazybet-purple/30 to-eazybet-pink/30 rounded-3xl blur-xl"></div>
+          <div className="relative text-center max-w-3xl mx-auto p-8 rounded-3xl border border-white/20 bg-black/60 shadow-lg backdrop-blur-md">
+            <p className="text-2xl font-bold mb-6 gradient-text">Redefine your approach to sports betting</p>
             <a 
               href="https://www.eazybetcoinapp.com" 
               className="glow-button px-8 py-4 rounded-full text-white text-lg font-bold"
@@ -158,7 +158,7 @@ const Index = () => {
         {/* CTA Buttons */}
         <div 
           ref={addToRefs} 
-          className="reveal flex flex-col md:flex-row justify-center items-center gap-6 mt-16 md:mt-24 mb-10"
+          className="reveal flex flex-col md:flex-row justify-center items-center gap-6 mt-20 md:mt-28 mb-16 bg-black/40 backdrop-blur-md p-10 rounded-3xl border border-white/10 shadow-[0_10px_30px_rgba(0,0,0,0.3)]"
         >
           <a 
             href="https://www.eazybetcoinapp.com" 
@@ -186,8 +186,8 @@ const Index = () => {
           </a>
         </div>
         
-        <footer className="text-center mt-16 pb-8 bg-black/50 py-6 rounded-xl border border-white/10">
-          <p className="text-white font-medium">© 2025 EazyBet. All rights reserved.</p>
+        <footer className="text-center mt-16 pb-8 bg-gradient-to-b from-black/60 to-black/30 py-8 rounded-xl border border-white/10 backdrop-blur-md">
+          <p className="text-white text-lg font-medium">© 2025 EazyBet. All rights reserved.</p>
         </footer>
       </div>
     </div>
