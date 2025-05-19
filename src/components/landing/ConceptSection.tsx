@@ -7,7 +7,7 @@ const ConceptSection = () => {
     <section className="py-16 md:py-24">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          <span className="gradient-text">EazyBet</span> est l'opposé radical des apps de paris sportifs classiques
+          <span className="gradient-text">EazyBet</span> is the radical opposite of traditional sports betting apps
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -16,10 +16,10 @@ const ConceptSection = () => {
               <div className="bg-eazybet-purple/20 p-3 rounded-lg mr-4">
                 <Ban className="text-eazybet-purple h-7 w-7" />
               </div>
-              <h3 className="text-xl font-bold">Zéro mise d'argent</h3>
+              <h3 className="text-xl font-bold">Zero Money Stakes</h3>
             </div>
             <p className="text-gray-300">
-              Contrairement aux paris classiques, tu n'as jamais besoin de déposer ou risquer ton argent réel.
+              Unlike traditional betting, you never need to deposit or risk your real money.
             </p>
           </div>
           
@@ -28,10 +28,10 @@ const ConceptSection = () => {
               <div className="bg-eazybet-pink/20 p-3 rounded-lg mr-4">
                 <Ban className="text-eazybet-pink h-7 w-7" />
               </div>
-              <h3 className="text-xl font-bold">Zéro risque financier</h3>
+              <h3 className="text-xl font-bold">Zero Financial Risk</h3>
             </div>
             <p className="text-gray-300">
-              Plus de stress lié aux pertes d'argent. Concentre-toi sur la stratégie et le plaisir du jeu.
+              No more stress from money losses. Focus on strategy and the fun of the game.
             </p>
           </div>
           
@@ -40,10 +40,10 @@ const ConceptSection = () => {
               <div className="bg-eazybet-pink/20 p-3 rounded-lg mr-4">
                 <Trophy className="text-eazybet-pink h-7 w-7" />
               </div>
-              <h3 className="text-xl font-bold">Des vraies récompenses</h3>
+              <h3 className="text-xl font-bold">Real Rewards</h3>
             </div>
             <p className="text-gray-300">
-              Juste un jeu stratégique, fun et gratuit, qui récompense les meilleurs avec de véritables avantages.
+              Just a strategic, fun and free game that rewards the best with real benefits.
             </p>
           </div>
         </div>

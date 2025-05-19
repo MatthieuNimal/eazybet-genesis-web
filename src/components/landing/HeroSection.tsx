@@ -11,7 +11,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto">
-          Et si tu pouvais gagner de la crypto <span className="gradient-text font-semibold">$EZBC</span>… sans jamais risquer ton argent ?
+          What if you could earn <span className="gradient-text font-semibold">$EZBC</span> crypto... without ever risking your money?
         </p>
       </div>
 
@@ -22,7 +22,7 @@ const HeroSection = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Accéder à l'app <ArrowRight size={18} />
+          Access the App <ArrowRight size={18} />
         </a>
       </div>
       
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <iframe
             className="w-full aspect-video"
             src="https://www.youtube.com/embed/JF4ixqc5apA?si=WZyQFri4veuNNzSR"
-            title="EazyBet présentation"
+            title="EazyBet presentation"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>

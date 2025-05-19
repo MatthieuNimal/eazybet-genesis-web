@@ -59,7 +59,7 @@ const Index = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Commencer <ArrowRight size={16} />
+          Get Started <ArrowRight size={16} />
         </a>
       </header>
 
@@ -72,7 +72,7 @@ const Index = () => {
         <div className="text-center my-10 py-6">
           <div className="bg-black/30 backdrop-blur-sm p-6 rounded-3xl border border-eazybet-purple/30 mx-auto max-w-3xl">
             <p className="text-xl md:text-2xl mb-6 gradient-text font-semibold">
-              Capture l'opportunité EazyBet dès maintenant
+              Seize the EazyBet opportunity now
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-4">
               <a 
@@ -81,7 +81,7 @@ const Index = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Commencer à jouer <ArrowRight size={16} className="inline ml-2" />
+                Start Playing <ArrowRight size={16} className="inline ml-2" />
               </a>
               <a 
                 href="https://t.me/eazybetcoin" 
@@ -89,7 +89,7 @@ const Index = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Rejoindre la communauté <MessageSquare size={16} className="inline ml-2" />
+                Join Community <MessageSquare size={16} className="inline ml-2" />
               </a>
             </div>
           </div>
@@ -107,7 +107,7 @@ const Index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Essayer gratuitement <ArrowRight size={18} className="inline ml-2" />
+            Try For Free <ArrowRight size={18} className="inline ml-2" />
           </a>
         </div>
         
@@ -117,8 +117,8 @@ const Index = () => {
         
         {/* CTA after Token Section */}
         <div className="my-16 text-center max-w-3xl mx-auto p-8 bg-gradient-card rounded-3xl border border-eazybet-purple/30">
-          <h3 className="text-2xl font-bold mb-4">Prêt à révolutionner les paris sportifs?</h3>
-          <p className="mb-6 text-gray-200">Rejoignez-nous pour être parmi les premiers à profiter des avantages exclusifs de $EZBC.</p>
+          <h3 className="text-2xl font-bold mb-4">Ready to revolutionize sports betting?</h3>
+          <p className="mb-6 text-gray-200">Join us to be among the first to enjoy the exclusive benefits of $EZBC.</p>
           <div className="flex justify-center">
             <a 
               href="https://x.com/eazybetcoin?s=21" 
@@ -126,7 +126,7 @@ const Index = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Suivre nos actualités <Twitter size={18} className="inline ml-2" />
+              Follow Our Updates <Twitter size={18} className="inline ml-2" />
             </a>
           </div>
         </div>
@@ -139,14 +139,14 @@ const Index = () => {
         <div className="relative my-16 py-10">
           <div className="absolute inset-0 bg-gradient-to-r from-eazybet-purple/20 to-eazybet-pink/20 rounded-3xl blur-xl"></div>
           <div className="relative text-center max-w-3xl mx-auto p-8 rounded-3xl border border-white/10">
-            <p className="text-2xl font-bold mb-6">Redéfinissez votre approche des paris sportifs</p>
+            <p className="text-2xl font-bold mb-6">Redefine your approach to sports betting</p>
             <a 
               href="https://www.eazybetcoinapp.com" 
               className="glow-button px-8 py-4 rounded-full text-white text-lg font-bold"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Accéder à l'application <ArrowRight size={18} className="inline ml-2" />
+              Access the Application <ArrowRight size={18} className="inline ml-2" />
             </a>
           </div>
         </div>
@@ -166,7 +166,7 @@ const Index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Accéder à l'app <ArrowRight size={18} />
+            Access the App <ArrowRight size={18} />
           </a>
           <a 
             href="https://t.me/eazybetcoin" 
@@ -174,7 +174,7 @@ const Index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Rejoindre le Telegram <MessageSquare size={18} />
+            Join Telegram <MessageSquare size={18} />
           </a>
           <a 
             href="https://x.com/eazybetcoin?s=21" 
@@ -182,12 +182,12 @@ const Index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Suivre sur X (Twitter) <Twitter size={18} />
+            Follow on X (Twitter) <Twitter size={18} />
           </a>
         </div>
         
         <footer className="text-center text-sm text-gray-400 mt-16 pb-8">
-          © 2025 EazyBet. Tous droits réservés.
+          © 2025 EazyBet. All rights reserved.
         </footer>
       </div>
     </div>

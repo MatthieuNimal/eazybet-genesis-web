@@ -9,11 +9,11 @@ const TokenSection = () => {
     <section className="py-16 md:py-24">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-          La valeur du token <span className="gradient-text">$EZBC</span>
+          The value of the <span className="gradient-text">$EZBC</span> token
         </h2>
         
         <p className="text-xl text-center text-gray-300 mb-16 max-w-3xl mx-auto">
-          EZBC n'est pas qu'un token. C'est le symbole d'une vision : récompenser les joueurs sans jamais les mettre en danger. Une vraie utilité et une vraie communauté.
+          EZBC is not just a token. It's the symbol of a vision: rewarding players without ever putting them at risk. Real utility and a real community.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -22,10 +22,10 @@ const TokenSection = () => {
               <div className="bg-eazybet-purple/20 p-3 rounded-lg mr-4">
                 <Coins className="text-eazybet-purple h-7 w-7" />
               </div>
-              <h3 className="text-xl font-bold">NFTs de teams</h3>
+              <h3 className="text-xl font-bold">Team NFTs</h3>
             </div>
             <p className="text-gray-300 flex-grow">
-              Utilisable pour acheter des NFTs de cartes représentant des équipes de foot qui donnent des avantages dans le jeu.
+              Usable to purchase NFT cards representing football teams that provide in-game advantages.
             </p>
             <Card className="w-full mt-4 bg-transparent border-0 overflow-hidden">
               <CardContent className="p-0">
@@ -45,10 +45,10 @@ const TokenSection = () => {
               <div className="bg-eazybet-pink/20 p-3 rounded-lg mr-4">
                 <Zap className="text-eazybet-pink h-7 w-7" />
               </div>
-              <h3 className="text-xl font-bold">Boosts in-game</h3>
+              <h3 className="text-xl font-bold">In-game Boosts</h3>
             </div>
             <p className="text-gray-300 flex-grow">
-              Chaque NFT donne des boosts réels dans le jeu comme de meilleures cotes, des bonus XP et autres avantages exclusifs.
+              Each NFT gives real in-game boosts like better odds, XP bonuses, and other exclusive advantages.
             </p>
             <div className="w-full h-40 bg-gradient-card rounded-lg mt-4 flex items-center justify-center">
               <div className="text-5xl font-bold gradient-text animate-pulse">
@@ -62,10 +62,10 @@ const TokenSection = () => {
               <div className="bg-eazybet-purple/20 p-3 rounded-lg mr-4">
                 <LeafyGreen className="text-eazybet-purple h-7 w-7" />
               </div>
-              <h3 className="text-xl font-bold">Blockchain Solana</h3>
+              <h3 className="text-xl font-bold">Solana Blockchain</h3>
             </div>
             <p className="text-gray-300 flex-grow">
-              Le token est construit sur la blockchain Solana, rapide, éco-responsable, et spécialement conçue pour le gaming.
+              The token is built on the Solana blockchain, fast, eco-friendly, and specially designed for gaming.
             </p>
             <div className="w-full h-40 bg-gradient-card rounded-lg mt-4 flex items-center justify-center">
               <div className="animate-float">
