@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState } from "react";
 import { ArrowRight, MessageSquare, Twitter } from "lucide-react";
 import HeroSection from "@/components/landing/HeroSection";
@@ -51,7 +52,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-main text-white overflow-hidden">
       {/* Header with Logo, Language Switcher and Button */}
       <header className="container mx-auto px-4 py-5 flex items-center justify-between animate-fade-in">
-        <div className="flex items-center">
+        <div className="flex items-center self-start">
           <img 
             src="/lovable-uploads/45a36e14-4147-468a-96a4-d04d25def9e6.png" 
             alt="EazyBet Logo" 
@@ -60,11 +61,7 @@ const Index = () => {
           <span className="ml-3 text-xl font-bold gradient-text">EazyBet</span>
         </div>
         
-        <div className="flex items-center gap-4">
-          <LanguageSwitcher 
-            onChangeLanguage={handleChangeLanguage} 
-            currentLanguage={language} 
-          />
+        <div className="flex flex-col items-end">
           <a 
             href="https://www.eazybetcoinapp.com" 
             className="glow-button flex items-center gap-2 px-6 py-2 rounded-full text-white font-bold"
@@ -73,6 +70,13 @@ const Index = () => {
           >
             {t.getStarted} <ArrowRight size={16} />
           </a>
+          
+          <div className="mt-2">
+            <LanguageSwitcher 
+              onChangeLanguage={handleChangeLanguage} 
+              currentLanguage={language} 
+            />
+          </div>
         </div>
       </header>
 
@@ -174,18 +178,18 @@ const Index = () => {
           />
         </div>
         
-        {/* CTA after Vision Section */}
+        {/* CTA after Vision Section - MAKING THIS SPECIFIC BUTTON RESPONSIVE */}
         <div className="relative my-16 py-10">
           <div className="absolute inset-0 bg-gradient-to-r from-eazybet-purple/30 to-eazybet-pink/30 rounded-3xl blur-xl"></div>
           <div className="relative text-center max-w-3xl mx-auto p-8 rounded-3xl border border-white/20 bg-black/60 shadow-lg backdrop-blur-md">
-            <p className="text-2xl font-bold mb-6 gradient-text">{t.redefineApproach}</p>
+            <p className="text-xl md:text-2xl font-bold mb-6 gradient-text">{t.redefineApproach}</p>
             <a 
               href="https://www.eazybetcoinapp.com" 
-              className="glow-button px-8 py-4 rounded-full text-white text-lg font-bold"
+              className="glow-button inline-block w-full sm:w-auto px-4 sm:px-8 py-3 sm:py-4 text-base sm:text-lg md:text-lg font-bold rounded-full transition-all text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t.accessApplication} <ArrowRight size={18} className="inline ml-2" />
+              {t.accessApplication} <ArrowRight size={16} className="inline ml-2" />
             </a>
           </div>
         </div>
