@@ -1,145 +1,127 @@
 
 export const translations = {
   en: {
-    // Header
-    getStarted: "Get Started",
-    
-    // Hero Section
-    heroHeading: "EazyBet",
-    heroSubheading: "What if you could earn <span>$EZBC</span> crypto... without ever risking your money?",
+    heroHeading: "The Ultimate <span>Zero-Risk</span> Betting Platform",
+    heroSubheading: "EazyBet is revolutionizing the betting industry with our unique zero-risk concept, powered by the $EBET token and Solana blockchain.",
     accessApp: "Access the App",
-    
-    // CTA after Hero
-    seizeOpportunity: "Seize the EazyBet opportunity now",
-    startPlaying: "Start Playing",
-    joinCommunity: "Join Community",
+    getStarted: "Get Started",
+    seizeOpportunity: "Seize the opportunity to join EazyBet early!",
+    startPlaying: "Start Playing Now",
+    joinCommunity: "Join our Community",
     
     // Concept Section
-    conceptHeading: "<span>EazyBet</span> is the radical opposite of traditional sports betting apps",
+    conceptHeading: "Our <span>Revolutionary</span> Concept",
     zeroMoneyStakes: "Zero Money Stakes",
-    zeroMoneyDesc: "Unlike traditional betting, you never need to deposit or risk your real money.",
-    zeroRisk: "Zero Financial Risk",
-    zeroRiskDesc: "No more stress from money losses. Focus on strategy and the fun of the game.",
+    zeroMoneyDesc: "Place bets without using real money - use our innovative point system instead",
+    zeroRisk: "Zero Risk",
+    zeroRiskDesc: "No financial risk means stress-free betting experience for everyone",
     realRewards: "Real Rewards",
-    realRewardsDesc: "Just a strategic, fun and free game that rewards the best with real benefits.",
-    
-    // CTA after Concept
-    tryForFree: "Try For Free",
+    realRewardsDesc: "Win real crypto rewards based on your betting performance",
     
     // Token Section
-    tokenHeading: "The value of the <span>$EZBC</span> token",
-    tokenSubheading: "EZBC is not just a token. It's the symbol of a vision: rewarding players without ever putting them at risk. Real utility and a real community.",
+    tokenHeading: "The <span>$EBET</span> Token",
+    tokenSubheading: "Our native token powers the entire EazyBet ecosystem",
     teamNFTs: "Team NFTs",
-    teamNFTsDesc: "Usable to purchase NFT cards representing football teams that provide in-game advantages.",
-    inGameBoosts: "In-game Boosts",
-    inGameBoostsDesc: "Each NFT gives real in-game boosts like better odds, XP bonuses, and other exclusive advantages.",
+    teamNFTsDesc: "Collect and trade unique NFTs representing your favorite sports teams",
+    inGameBoosts: "In-Game Boosts",
+    inGameBoostsDesc: "Use tokens to get betting advantages and multipliers",
     solanaBlockchain: "Solana Blockchain",
-    solanaDesc: "The token is built on the Solana blockchain, fast, eco-friendly, and specially designed for gaming.",
-    
-    // CTA after Token
-    readyToRevolutionize: "Ready to revolutionize sports betting?",
-    joinUsToBeFirst: "Join us to be among the first to enjoy the exclusive benefits of $EZBC.",
-    followUpdates: "Follow Our Updates",
+    solanaDesc: "Built on Solana for lightning-fast transactions and minimal fees",
     
     // Vision Section
     visionHeading: "Our <span>Vision</span>",
-    visionText1: "Our goal is clear: to challenge the sports betting industry, a system built on players' financial losses.",
-    visionText2: "EazyBet proves that we can keep the fun and competition without ruining anyone.",
-    visionText3: "Web3 allows us to reward players in a healthy, deserved, and transparent way.",
-    
-    // CTA after Vision
-    redefineApproach: "Redefine your approach to sports betting",
-    accessApplication: "Access the Application",
+    visionText1: "We believe betting should be fun and accessible to everyone, without the financial risks that have traditionally been associated with it.",
+    visionText2: "By removing the monetary barrier to entry, we're creating a platform where users can enjoy the thrill of betting while having the opportunity to win real rewards.",
+    visionText3: "Our goal is to build the largest betting community in the world, united by the passion for sports, games, and friendly competition.",
     
     // Beta Section
-    uniqueOpportunity: "A <span>Unique</span> Opportunity",
-    bestPlayersWillReceive: "The best players with the most diamonds will receive:",
+    uniqueOpportunity: "Join Our <span>Beta Program</span>",
+    bestPlayersWillReceive: "The best players during our Beta will receive:",
     freeAirdrop: "Free Airdrop",
-    freeAirdropDesc: "A free airdrop of $EZBC tokens directly to your wallet",
+    freeAirdropDesc: "Receive EBET tokens completely free based on your performance",
     priorityAccess: "Priority Access",
-    priorityAccessDesc: "Priority access to the private sale with preferential pricing",
+    priorityAccessDesc: "Get early access to new features and betting markets",
     uniqueRewards: "Unique Rewards",
-    uniqueRewardsDesc: "Access to private communities and permanent benefits in the EazyBet ecosystem",
-    hugeOpportunity: "EZBC is a huge Web3 opportunity",
-    opportunityDesc: "A token tied to real usage, in a mainstream sector, with an engaged early community",
+    uniqueRewardsDesc: "Earn exclusive NFTs and special bonuses only available during Beta",
+    hugeOpportunity: "A Huge Opportunity",
+    opportunityDesc: "Early adopters will be rewarded generously - don't miss out!",
     
-    // Final CTA
+    // CTAs
+    tryForFree: "Try For Free Now",
+    readyToRevolutionize: "Ready to Revolutionize Betting?",
+    joinUsToBeFirst: "Join us today to be among the first to experience EazyBet's revolutionary approach to betting.",
+    followUpdates: "Follow for Updates",
+    redefineApproach: "Ready to redefine your approach to betting?",
+    accessApplication: "Access the Application",
+    
+    // Footer
+    copyright: "© 2025 EazyBet. All rights reserved.",
+    
+    // New buttons
     accessApp: "Access the App",
     joinTelegram: "Join Telegram",
     followTwitter: "Follow on X (Twitter)",
-    
-    // Footer
-    copyright: "© 2025 EazyBet. All rights reserved."
   },
   fr: {
-    // Header
-    getStarted: "Commencer",
-    
-    // Hero Section
-    heroHeading: "EazyBet",
-    heroSubheading: "Et si vous pouviez gagner des crypto <span>$EZBC</span>... sans jamais risquer votre argent ?",
+    heroHeading: "La Plateforme de Paris <span>Sans Risque</span> Ultime",
+    heroSubheading: "EazyBet révolutionne l'industrie des paris avec notre concept unique sans risque, alimenté par le jeton $EBET et la blockchain Solana.",
     accessApp: "Accéder à l'Application",
-    
-    // CTA after Hero
-    seizeOpportunity: "Saisissez l'opportunité EazyBet maintenant",
-    startPlaying: "Commencer à jouer",
+    getStarted: "Commencer",
+    seizeOpportunity: "Saisissez l'opportunité de rejoindre EazyBet dès maintenant!",
+    startPlaying: "Commencer à Jouer",
     joinCommunity: "Rejoindre la Communauté",
     
     // Concept Section
-    conceptHeading: "<span>EazyBet</span> est l'opposé radical des applications de paris sportifs traditionnelles",
-    zeroMoneyStakes: "Zéro Mise d'Argent",
-    zeroMoneyDesc: "Contrairement aux paris traditionnels, vous n'avez jamais besoin de déposer ou de risquer votre argent réel.",
-    zeroRisk: "Zéro Risque Financier",
-    zeroRiskDesc: "Plus de stress lié aux pertes d'argent. Concentrez-vous sur la stratégie et le plaisir du jeu.",
+    conceptHeading: "Notre Concept <span>Révolutionnaire</span>",
+    zeroMoneyStakes: "Paris Sans Argent",
+    zeroMoneyDesc: "Placez des paris sans utiliser d'argent réel - utilisez notre système de points innovant",
+    zeroRisk: "Zéro Risque",
+    zeroRiskDesc: "Aucun risque financier signifie une expérience de paris sans stress pour tous",
     realRewards: "Récompenses Réelles",
-    realRewardsDesc: "Juste un jeu stratégique, amusant et gratuit qui récompense les meilleurs avec de vrais avantages.",
-    
-    // CTA after Concept
-    tryForFree: "Essayer Gratuitement",
+    realRewardsDesc: "Gagnez de véritables récompenses crypto basées sur vos performances de paris",
     
     // Token Section
-    tokenHeading: "La valeur du token <span>$EZBC</span>",
-    tokenSubheading: "EZBC n'est pas qu'un simple token. C'est le symbole d'une vision : récompenser les joueurs sans jamais les mettre en danger. Une utilité réelle et une vraie communauté.",
-    teamNFTs: "NFT d'Équipes",
-    teamNFTsDesc: "Utilisables pour acheter des cartes NFT représentant des équipes de football qui offrent des avantages en jeu.",
-    inGameBoosts: "Bonus En Jeu",
-    inGameBoostsDesc: "Chaque NFT offre des bonus réels en jeu comme de meilleures cotes, des bonus XP et d'autres avantages exclusifs.",
+    tokenHeading: "Le Jeton <span>$EBET</span>",
+    tokenSubheading: "Notre jeton natif alimente tout l'écosystème EazyBet",
+    teamNFTs: "NFTs d'Équipe",
+    teamNFTsDesc: "Collectionnez et échangez des NFT uniques représentant vos équipes sportives préférées",
+    inGameBoosts: "Boosts En Jeu",
+    inGameBoostsDesc: "Utilisez des jetons pour obtenir des avantages et des multiplicateurs de paris",
     solanaBlockchain: "Blockchain Solana",
-    solanaDesc: "Le token est construit sur la blockchain Solana, rapide, écologique et spécialement conçue pour le gaming.",
-    
-    // CTA after Token
-    readyToRevolutionize: "Prêt à révolutionner les paris sportifs ?",
-    joinUsToBeFirst: "Rejoignez-nous pour être parmi les premiers à profiter des avantages exclusifs de $EZBC.",
-    followUpdates: "Suivre Nos Actualités",
+    solanaDesc: "Construit sur Solana pour des transactions ultra-rapides et des frais minimes",
     
     // Vision Section
     visionHeading: "Notre <span>Vision</span>",
-    visionText1: "Notre objectif est clair : défier l'industrie des paris sportifs, un système fondé sur les pertes financières des joueurs.",
-    visionText2: "EazyBet prouve qu'on peut garder le fun et la compétition sans ruiner personne.",
-    visionText3: "Le Web3 nous permet de récompenser les joueurs de manière saine, méritée et transparente.",
-    
-    // CTA after Vision
-    redefineApproach: "Redéfinissez votre approche des paris sportifs",
-    accessApplication: "Accéder à l'Application",
+    visionText1: "Nous croyons que les paris devraient être amusants et accessibles à tous, sans les risques financiers qui y ont traditionnellement été associés.",
+    visionText2: "En supprimant la barrière monétaire à l'entrée, nous créons une plateforme où les utilisateurs peuvent profiter du frisson des paris tout en ayant la possibilité de gagner de véritables récompenses.",
+    visionText3: "Notre objectif est de construire la plus grande communauté de paris au monde, unie par la passion pour le sport, les jeux et la compétition amicale.",
     
     // Beta Section
-    uniqueOpportunity: "Une Opportunité <span>Unique</span>",
-    bestPlayersWillReceive: "Les meilleurs joueurs avec le plus de diamants recevront :",
+    uniqueOpportunity: "Rejoignez Notre <span>Programme Bêta</span>",
+    bestPlayersWillReceive: "Les meilleurs joueurs pendant notre Bêta recevront :",
     freeAirdrop: "Airdrop Gratuit",
-    freeAirdropDesc: "Un airdrop gratuit de tokens $EZBC directement dans votre portefeuille",
+    freeAirdropDesc: "Recevez des jetons EBET entièrement gratuits selon vos performances",
     priorityAccess: "Accès Prioritaire",
-    priorityAccessDesc: "Accès prioritaire à la vente privée avec des prix préférentiels",
+    priorityAccessDesc: "Obtenez un accès anticipé aux nouvelles fonctionnalités et marchés de paris",
     uniqueRewards: "Récompenses Uniques",
-    uniqueRewardsDesc: "Accès à des communautés privées et des avantages permanents dans l'écosystème EazyBet",
-    hugeOpportunity: "EZBC est une énorme opportunité Web3",
-    opportunityDesc: "Un token lié à une utilisation réelle, dans un secteur grand public, avec une communauté engagée",
+    uniqueRewardsDesc: "Gagnez des NFT exclusifs et des bonus spéciaux uniquement disponibles pendant la Bêta",
+    hugeOpportunity: "Une Énorme Opportunité",
+    opportunityDesc: "Les premiers utilisateurs seront généreusement récompensés - ne manquez pas cette chance !",
     
-    // Final CTA
+    // CTAs
+    tryForFree: "Essayez Gratuitement Maintenant",
+    readyToRevolutionize: "Prêt à Révolutionner les Paris ?",
+    joinUsToBeFirst: "Rejoignez-nous dès aujourd'hui pour être parmi les premiers à découvrir l'approche révolutionnaire d'EazyBet en matière de paris.",
+    followUpdates: "Suivez pour les Mises à Jour",
+    redefineApproach: "Prêt à redéfinir votre approche des paris ?",
+    accessApplication: "Accéder à l'Application",
+    
+    // Footer
+    copyright: "© 2025 EazyBet. Tous droits réservés.",
+    
+    // New buttons
     accessApp: "Accéder à l'App",
     joinTelegram: "Rejoindre Telegram",
     followTwitter: "Suivre sur X (Twitter)",
-    
-    // Footer
-    copyright: "© 2025 EazyBet. Tous droits réservés."
   }
 };
