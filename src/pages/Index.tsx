@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState } from "react";
 import { ArrowRight, MessageSquare, Twitter } from "lucide-react";
 import HeroSection from "@/components/landing/HeroSection";
@@ -60,11 +61,7 @@ const Index = () => {
           <span className="ml-3 text-xl font-bold gradient-text">EazyBet</span>
         </div>
         
-        <div className="flex items-center gap-4">
-          <LanguageSwitcher 
-            onChangeLanguage={handleChangeLanguage} 
-            currentLanguage={language} 
-          />
+        <div className="flex flex-col items-end gap-2">
           <a 
             href="https://www.eazybetcoinapp.com" 
             className="glow-button flex items-center gap-2 px-6 py-2 rounded-full text-white font-bold"
@@ -73,6 +70,10 @@ const Index = () => {
           >
             {t.getStarted} <ArrowRight size={16} />
           </a>
+          <LanguageSwitcher 
+            onChangeLanguage={handleChangeLanguage} 
+            currentLanguage={language} 
+          />
         </div>
       </header>
 
