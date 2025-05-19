@@ -128,7 +128,7 @@ const Index = () => {
         <div className="text-center my-12 animate-pulse-glow">
           <a 
             href="https://www.eazybetcoinapp.com" 
-            className="inline-block glow-button px-8 py-4 rounded-full text-white text-lg font-bold border-0 shadow-none bg-gradient-button"
+            className="inline-block glow-button px-8 py-4 rounded-full text-white text-lg font-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
