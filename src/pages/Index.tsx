@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState } from "react";
 import { ArrowRight, MessageSquare, Twitter } from "lucide-react";
 import HeroSection from "@/components/landing/HeroSection";
@@ -236,7 +237,7 @@ const Index = () => {
           </a>
         </div>
         
-        <footer className="text-center mt-16 pb-8 py-8 rounded-xl">
+        <footer className="text-center mt-16 pb-8 bg-gradient-to-b from-black/60 to-black/30 py-8 rounded-xl border border-white/10 backdrop-blur-md">
           <p className="text-white text-lg font-medium">{t.copyright}</p>
         </footer>
       </div>
