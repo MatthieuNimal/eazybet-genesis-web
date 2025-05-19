@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from "react";
 import { ArrowRight, MessageSquare, Twitter } from "lucide-react";
 import HeroSection from "@/components/landing/HeroSection";
@@ -52,34 +51,28 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-main text-white overflow-hidden">
       {/* Header with Logo, Language Switcher and Button */}
       <header className="container mx-auto px-4 py-5 flex items-center justify-between animate-fade-in">
-        {/* Logo and Title Container - Now with consistent height and vertical alignment */}
-        <div className="flex items-center h-10">
+        <div className="flex items-center">
           <img 
             src="/lovable-uploads/45a36e14-4147-468a-96a4-d04d25def9e6.png" 
             alt="EazyBet Logo" 
-            className="h-10" 
+            className="h-12 md:h-16" 
           />
           <span className="ml-3 text-xl font-bold gradient-text">EazyBet</span>
         </div>
         
-        {/* Get Started Button Container - Now with matching height */}
-        <div className="flex flex-col items-end">
-          <div className="h-10 flex items-center">
-            <a 
-              href="https://www.eazybetcoinapp.com" 
-              className="glow-button flex items-center gap-2 px-6 py-2 rounded-full text-white text-base font-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t.getStarted} <ArrowRight size={16} />
-            </a>
-          </div>
-          <div className="mt-2">
-            <LanguageSwitcher 
-              onChangeLanguage={handleChangeLanguage} 
-              currentLanguage={language} 
-            />
-          </div>
+        <div className="flex items-center gap-4">
+          <LanguageSwitcher 
+            onChangeLanguage={handleChangeLanguage} 
+            currentLanguage={language} 
+          />
+          <a 
+            href="https://www.eazybetcoinapp.com" 
+            className="glow-button flex items-center gap-2 px-6 py-2 rounded-full text-white font-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.getStarted} <ArrowRight size={16} />
+          </a>
         </div>
       </header>
 
