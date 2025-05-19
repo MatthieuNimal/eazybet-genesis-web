@@ -2,16 +2,22 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  heroHeading: string;
+  heroSubheading: string;
+  accessApp: string;
+}
+
+const HeroSection = ({ heroHeading, heroSubheading, accessApp }: HeroSectionProps) => {
   return (
     <section className="py-16 md:py-24 flex flex-col items-center">
       <div className="max-w-4xl mx-auto text-center mb-10">
         <h1 className="text-7xl md:text-9xl lg:text-[10rem] font-bold mb-10 leading-tight animate-fade-in">
-          <span className="gradient-text tracking-wide font-poppins">EazyBet</span>
+          <span className="gradient-text tracking-wide font-poppins">{heroHeading}</span>
         </h1>
         
-        <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto">
-          What if you could earn <span className="gradient-text font-semibold">$EZBC</span> crypto... without ever risking your money?
+        <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed max-w-3xl mx-auto" 
+           dangerouslySetInnerHTML={{ __html: heroSubheading.replace('<span>', '<span class="gradient-text font-semibold">').replace('</span>', '</span>') }}>
         </p>
       </div>
 
@@ -22,7 +28,7 @@ const HeroSection = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Access the App <ArrowRight size={18} />
+          {accessApp} <ArrowRight size={18} />
         </a>
       </div>
       
