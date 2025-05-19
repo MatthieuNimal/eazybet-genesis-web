@@ -68,16 +68,87 @@ const Index = () => {
           <HeroSection />
         </div>
         
+        {/* CTA after Hero Section */}
+        <div className="text-center my-10 py-6">
+          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-3xl border border-eazybet-purple/30 mx-auto max-w-3xl">
+            <p className="text-xl md:text-2xl mb-6 gradient-text font-semibold">
+              Capture l'opportunité EazyBet dès maintenant
+            </p>
+            <div className="flex flex-col md:flex-row justify-center gap-4">
+              <a 
+                href="https://www.eazybetcoinapp.com" 
+                className="glow-button px-6 py-3 rounded-full text-white font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Commencer à jouer <ArrowRight size={16} className="inline ml-2" />
+              </a>
+              <a 
+                href="https://t.me/eazybetcoin" 
+                className="glow-button px-6 py-3 rounded-full text-white font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Rejoindre la communauté <MessageSquare size={16} className="inline ml-2" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
         <div ref={addToRefs} className="reveal">
           <ConceptSection />
+        </div>
+        
+        {/* CTA after Concept Section */}
+        <div className="text-center my-12 animate-pulse-glow">
+          <a 
+            href="https://www.eazybetcoinapp.com" 
+            className="inline-block glow-button px-8 py-4 rounded-full text-white text-lg font-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Essayer gratuitement <ArrowRight size={18} className="inline ml-2" />
+          </a>
         </div>
         
         <div ref={addToRefs} className="reveal">
           <TokenSection />
         </div>
         
+        {/* CTA after Token Section */}
+        <div className="my-16 text-center max-w-3xl mx-auto p-8 bg-gradient-card rounded-3xl border border-eazybet-purple/30">
+          <h3 className="text-2xl font-bold mb-4">Prêt à révolutionner les paris sportifs?</h3>
+          <p className="mb-6 text-gray-200">Rejoignez-nous pour être parmi les premiers à profiter des avantages exclusifs de $EZBC.</p>
+          <div className="flex justify-center">
+            <a 
+              href="https://x.com/eazybetcoin?s=21" 
+              className="glow-button px-8 py-3 rounded-full text-white font-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Suivre nos actualités <Twitter size={18} className="inline ml-2" />
+            </a>
+          </div>
+        </div>
+        
         <div ref={addToRefs} className="reveal">
           <VisionSection />
+        </div>
+        
+        {/* CTA after Vision Section */}
+        <div className="relative my-16 py-10">
+          <div className="absolute inset-0 bg-gradient-to-r from-eazybet-purple/20 to-eazybet-pink/20 rounded-3xl blur-xl"></div>
+          <div className="relative text-center max-w-3xl mx-auto p-8 rounded-3xl border border-white/10">
+            <p className="text-2xl font-bold mb-6">Redéfinissez votre approche des paris sportifs</p>
+            <a 
+              href="https://www.eazybetcoinapp.com" 
+              className="glow-button px-8 py-4 rounded-full text-white text-lg font-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Accéder à l'application <ArrowRight size={18} className="inline ml-2" />
+            </a>
+          </div>
         </div>
         
         <div ref={addToRefs} className="reveal">
@@ -90,8 +161,10 @@ const Index = () => {
           className="reveal flex flex-col md:flex-row justify-center items-center gap-6 mt-16 md:mt-24 mb-10"
         >
           <a 
-            href="#" 
+            href="https://www.eazybetcoinapp.com" 
             className="glow-button flex items-center gap-2 px-8 py-4 rounded-full text-white font-bold text-lg"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Accéder à l'app <ArrowRight size={18} />
           </a>
