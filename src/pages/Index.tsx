@@ -174,18 +174,18 @@ const Index = () => {
           />
         </div>
         
-        {/* CTA after Vision Section */}
+        {/* CTA after Vision Section - MAKING THIS SPECIFIC BUTTON RESPONSIVE */}
         <div className="relative my-16 py-10">
           <div className="absolute inset-0 bg-gradient-to-r from-eazybet-purple/30 to-eazybet-pink/30 rounded-3xl blur-xl"></div>
           <div className="relative text-center max-w-3xl mx-auto p-8 rounded-3xl border border-white/20 bg-black/60 shadow-lg backdrop-blur-md">
-            <p className="text-2xl font-bold mb-6 gradient-text">{t.redefineApproach}</p>
+            <p className="text-xl md:text-2xl font-bold mb-6 gradient-text">{t.redefineApproach}</p>
             <a 
               href="https://www.eazybetcoinapp.com" 
-              className="glow-button px-8 py-4 rounded-full text-white text-lg font-bold"
+              className="glow-button inline-block w-full sm:w-auto px-4 sm:px-8 py-3 sm:py-4 text-base sm:text-lg md:text-lg font-bold rounded-full transition-all text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t.accessApplication} <ArrowRight size={18} className="inline ml-2" />
+              {t.accessApplication} <ArrowRight size={16} className="inline ml-2" />
             </a>
           </div>
         </div>
