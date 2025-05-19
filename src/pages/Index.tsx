@@ -206,10 +206,10 @@ const Index = () => {
           />
         </div>
         
-        {/* CTA Buttons - Removed frames/bubbles */}
+        {/* CTA Buttons */}
         <div 
           ref={addToRefs} 
-          className="reveal flex flex-col md:flex-row justify-center items-center gap-6 mt-20 md:mt-28 mb-16"
+          className="reveal flex flex-col md:flex-row justify-center items-center gap-6 mt-20 md:mt-28 mb-16 bg-black/40 backdrop-blur-md p-10 rounded-3xl border border-white/10 shadow-[0_10px_30px_rgba(0,0,0,0.3)]"
         >
           <a 
             href="https://www.eazybetcoinapp.com" 
@@ -225,7 +225,7 @@ const Index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {t.joinTelegram || "Join Telegram"} <MessageSquare size={18} />
+            {t.joinTelegram} <MessageSquare size={18} />
           </a>
           <a 
             href="https://x.com/eazybetcoin?s=21" 
@@ -233,13 +233,12 @@ const Index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {t.followTwitter || "Follow on X (Twitter)"} <Twitter size={18} />
+            {t.followTwitter} <Twitter size={18} />
           </a>
         </div>
         
-        {/* Footer - Removed bubble frame */}
-        <footer className="text-center py-8 mt-16 mb-8">
-          <p className="text-white/80 text-lg font-medium">{t.copyright}</p>
+        <footer className="text-center mt-16 pb-8 bg-gradient-to-b from-black/60 to-black/30 py-8 rounded-xl border border-white/10 backdrop-blur-md">
+          <p className="text-white text-lg font-medium">{t.copyright}</p>
         </footer>
       </div>
     </div>
