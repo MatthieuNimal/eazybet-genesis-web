@@ -61,23 +61,21 @@ const Index = () => {
           <span className="ml-3 text-xl font-bold gradient-text">EazyBet</span>
         </div>
         
-        <div className="flex items-center">
-          <div className="flex flex-col items-end">
-            <a 
-              href="https://www.eazybetcoinapp.com" 
-              className="glow-button flex items-center gap-2 px-6 py-2 rounded-full text-white font-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t.getStarted} <ArrowRight size={16} />
-            </a>
-            
-            <div className="mt-2">
-              <LanguageSwitcher 
-                onChangeLanguage={handleChangeLanguage} 
-                currentLanguage={language} 
-              />
-            </div>
+        <div className="flex flex-col items-end">
+          <a 
+            href="https://www.eazybetcoinapp.com" 
+            className="glow-button flex items-center gap-2 px-6 py-2 rounded-full text-white font-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.getStarted} <ArrowRight size={16} />
+          </a>
+          
+          <div className="mt-2">
+            <LanguageSwitcher 
+              onChangeLanguage={handleChangeLanguage} 
+              currentLanguage={language} 
+            />
           </div>
         </div>
       </header>
