@@ -52,7 +52,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-main text-white overflow-hidden">
       {/* Header with Logo, Language Switcher and Button */}
       <header className="container mx-auto px-4 py-5 flex items-center justify-between animate-fade-in">
-        <div className="flex items-center">
+        <div className="flex items-center self-start">
           <img 
             src="/lovable-uploads/45a36e14-4147-468a-96a4-d04d25def9e6.png" 
             alt="EazyBet Logo" 
